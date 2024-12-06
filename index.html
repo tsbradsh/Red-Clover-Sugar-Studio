@@ -9,18 +9,131 @@
         <title>Red Clover Sugar Studio -- Covington, WA</title>
         <meta name="robots" content="index,follow">
 
-        <!-- Link to external CSS -->
-        <link href="styles.css" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- jQuery UI -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+        <!-- Slick Carousel CSS and JS-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-        <!-- Link to Google Fonts used -->
+        <!-- Link to external CSS and JS-->
+        <link href="styles.css" rel="stylesheet">
+        <script type="text/javascript" src="scripts.js" async></script>
+
+        <!-- Link to Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Jua&display=swap" rel="stylesheet">
     </head>
-    <main>
-        
-    </main>
-    <footer>
-                                                                                                                                                                                          
-    </footer>
+    <body class="light-dark">
+        <div id="logoCont">
+            <img id="logo" class="light-dark" src="images/clover.png" alt="red clover illustration">
+        </div>
+        <header class="light-dark bdow">
+            <button id="toggle" class="light-dark">DARK MODE</button>
+            <h1><a class="light-dark" href="#">RED CLOVER SUGAR STUDIO</a></h1>
+            <nav class="light-dark">
+                <ul class="light-dark">
+                    <li><a class="light-dark" href="https://redclover.glossgenius.com/services" target="_blank">Booking</a></li>
+                    <li><a class="light-dark" href="#buffer">Service Info</a></li>
+                    <li><a class="light-dark" href="#tabdiv">Contact</a></li>
+                    <li><a class="light-dark" href="https://www.google.com/maps/place/Red+Clover+Sugar+Studio/@47.3563606,-122.1189704,17z/data=!3m1!4b1!4m6!3m5!1s0x54905faab2c7bcd3:0x1414a8127f1db266!8m2!3d47.356357!4d-122.1163955!16s%2Fg%2F11sshpnbtb?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D" target="_blank">Directions</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="gradientcontainer">
+                <div class="buffer" id="buffer"></div>
+                <section id="abcontainer" class="light-dark bdow">
+                    <div id="workCont">
+                        <img id="banner" class='light-dark' src="images/banner.png" alt="clover banner">
+                        <img id="work" class='light-dark' src="images/room.jpg" alt="picture">
+                    </div>
+                    <div id="tabdiv" class="light-dark">
+                        <ul class="light-dark">
+                            <li><a href="#tab1">ABOUT</a></li>
+                            <li><a href="#tab2">SERVICES</a></li>
+                            <li><a href="#tab3">PREPARATION</a></li>
+                            <li ><a href="#tab4">AFTERCARE</a></li>
+                        </ul>
+                        <div id="tab1" class="light-dark">
+                            <p>Hello there! My name is Amanda and I'm the sole owner of Red Clover Sugar Studio. I specialize in providing sugar hair removal services, custom facials, resurfacing treatments, dermaplane facials, brow services and hair services. With my expertise and attention to detail, I ensure that each client receives personalized care and achieves their desired results.</p>
+                            <p>Outside of work, I have two adorable dogs named Daisy and Winston who bring endless joy to my life. Spending quality time with my family and loved ones is important to me, and we often embark on exciting travel adventures together. Being based in the Pacific Northwest, I find solace in hiking the picturesque trails of the region, connecting with nature, and embracing the beauty of the outdoors.</p>
+                            <p>I warmly welcome clients to my studio in Covington, WA, where I strive to create a serene and inviting atmosphere. Whether you're looking to achieve smooth, hair-free skin, revitalize your complexion, perfect your brows, beautify your hair or simply unwind and enjoy some self-care time, I'm here to provide exceptional services tailored to your individual needs. Book an appointment today and let's embark on your journey to beauty and well-being!</p>
+                        </div>
+                        <div id="tab2" class="light-dark">
+                            <ul class="tablist">
+                                <li>Sugar Waxing: A natural, gentle hair removal method suitable for even the most sensitive skin.</li>
+                                <li>Hard Waxing: Perfect for smaller, more delicate areas with precision.</li>
+                                <li>Skin Care: Tailored treatments to address your unique concerns, leaving your skin radiant and refreshed.</li>
+                                <li>Facials: Relax and rejuvenate with our custom facial treatments, designed to nourish and revitalize your skin.</li>
+                                <li>Brow Lamination: Achieve fuller, more defined brows with this innovative styling technique.</li>
+                                <li>Brow Tinting: Enhance your natural brows with a hint of long-lasting color.</li>
+                                <li>Chemical Peels: Exfoliate and reveal glowing skin with our professional-grade peels.</li>
+                                <li><a class="light-dark" href='https://redclover.glossgenius.com/services'>...and more!</a></li>
+                            </ul>
+                        </div>
+                        <div id="tab3" class="light-dark">
+                            <ul class="tablist">
+                                <li>Hair should be at a minimum of 2 weeks of growth; this is about the length of a grain of rice for comparison.</li>
+                                <li>Hydration is the key to good results; drink 100 ounces of water every day for three consecutive days prior to your appointment.</li>
+                                <li>Enjoy a long soak in an epsom salt bath the evening before your appointment.</li>
+                                <li>Gently exfoliate areas that you wish to have sugar applied to two days prior.</li>
+                                <li>Refrain from applying deodorant, body oils, and lotions the day of your appointment.</li>
+                                <li>Arrive in comfortable, loose fitting clothing.</li>
+                            </ul>
+                        </div>
+                        <div id="tab4" class="light-dark">
+                            <ul class="tablist">
+                                <li>Avoid hot baths, steam rooms, saunas, or heavy sweating for 24-48 hours post-treatment.</li>
+                                <li>Refrain from applying oils, deodorants, or heavily fragranced products to treated areas for the first 24 hours.</li>
+                                <li>Keep the area clean and moisturized with a gentle, fragrance-free lotion.</li>
+                                <li>Avoid direct sun exposure or tanning beds for at least 48 hours and apply sunscreen to protect the skin.</li>
+                                <li>Wear loose, breathable clothing to reduce irritation in treated areas.</li>
+                                <li>Gently exfoliate treated areas 2-3 times per week to help prevent ingrown hairs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="gridcont">
+                    <section id=contact class="light-dark bdow">
+                        <form id="contactForm" onsubmit="checkForm(event)">
+                            <h2 class="light-dark">CONTACT</h2>
+                            <label for="name">Name:</label> 
+                            <input type="text" id="name" name="name">
+                            <span id="nameE" class="error"></span>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone">
+                            <span id="phoneE" class="error"></span>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                            <span id="emailE" class="error"></span>
+                            <label for="comments">Comments/Questions:</label>
+                            <textarea rows="8" id="comments" name="comments"></textarea>
+                            <fieldset>
+                                <legend>Preferred Contact Method:</legend>
+                                <label>
+                                    <input type="radio" name="contactMethod" value="email">Email
+                                </label>
+                                <label>
+                                    <input type="radio" name="contactMethod" value="phone">Phone
+                                </label>
+                            </fieldset><span id="fieldE" class="error"></span>
+                            <button type="submit" class='light-dark' id="submit">Submit</button>
+                            <div id="complete"></div>
+                        </form>
+                    </section>
+                    <section id="IG" class="light-dark bdow">
+                        <h2 class="light-dark">GALLERY</h2>
+                        <div id="feed" class="feed"></div>
+                    </section>
+                </section>
+            </section>                                                                                                                                                                                
+        </main>
+        <footer class="light-dark">
+        </footer>
+    </body>
 </html>
